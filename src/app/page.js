@@ -45,7 +45,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* CTA with Clear Action */}
+          {/* CTA with Clear Action - FIXED */}
           <div className="flex flex-col items-center gap-4 mb-20">
             <a 
               href="#waitlist" 
@@ -53,7 +53,7 @@ export default function Home() {
             >
               Start Tracking Symptoms Free →
             </a>
-            <p className="text-gray-400 text-sm">No typing required • Works when you're in pain</p>
+            <p className="text-gray-400 text-sm">No typing required • Works when you&apos;re in pain</p>
           </div>
 
           {/* How It Works - Super Clear */}
@@ -63,13 +63,13 @@ export default function Home() {
             </h2>
             
             <div className="grid md:grid-cols-4 gap-6">
-              {/* Step 1 */}
+              {/* Step 1 - FIXED */}
               <div className="text-center">
                 <div className="bg-gradient-to-br from-purple-600/20 to-pink-600/20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 border border-purple-500/30">
                   <span className="text-2xl font-bold">1</span>
                 </div>
                 <h3 className="font-bold mb-2">Speak Symptoms</h3>
-                <p className="text-gray-400 text-sm">"Migraine started after lunch, neck pain level 7"</p>
+                <p className="text-gray-400 text-sm">{`"Migraine started after lunch, neck pain level 7"`}</p>
               </div>
 
               {/* Step 2 */}
@@ -81,22 +81,22 @@ export default function Home() {
                 <p className="text-gray-400 text-sm">#migraine #neck-pain #afternoon #severe</p>
               </div>
 
-              {/* Step 3 */}
+              {/* Step 3 - FIXED */}
               <div className="text-center">
                 <div className="bg-gradient-to-br from-purple-600/20 to-pink-600/20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 border border-purple-500/30">
                   <span className="text-2xl font-bold">3</span>
                 </div>
                 <h3 className="font-bold mb-2">Find Patterns</h3>
-                <p className="text-gray-400 text-sm">"Migraines happen 2 days after poor sleep"</p>
+                <p className="text-gray-400 text-sm">{`"Migraines happen 2 days after poor sleep"`}</p>
               </div>
 
-              {/* Step 4 */}
+              {/* Step 4 - FIXED */}
               <div className="text-center">
                 <div className="bg-gradient-to-br from-purple-600/20 to-pink-600/20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 border border-purple-500/30">
                   <span className="text-2xl font-bold">4</span>
                 </div>
                 <h3 className="font-bold mb-2">Predict &amp; Prevent</h3>
-                <p className="text-gray-400 text-sm">"Flare-up likely tomorrow. Rest today."</p>
+                <p className="text-gray-400 text-sm">{`"Flare-up likely tomorrow. Rest today."`}</p>
               </div>
             </div>
           </div>
@@ -104,15 +104,15 @@ export default function Home() {
           {/* 3 Main Features - SPECIFIC */}
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             
-            {/* Voice Symptom Logging */}
+            {/* Voice Symptom Logging - FIXED */}
             <div className="bg-gradient-to-br from-indigo-900/50 to-purple-900/50 backdrop-blur rounded-3xl p-8 border border-purple-800/50 hover:-translate-y-2 hover:shadow-2xl hover:shadow-purple-500/25 transition-all duration-300">
               <div className="text-5xl mb-4">🎤</div>
               <h3 className="text-2xl font-bold mb-3">Voice Symptom Diary</h3>
-              <p className="text-gray-300 mb-4">Can't type when symptoms are bad? Just talk. AI understands medical terms, severity, location.</p>
+              <p className="text-gray-300 mb-4">Can&apos;t type when symptoms are bad? Just talk. AI understands medical terms, severity, location.</p>
               <div className="text-purple-400 text-sm">
-                ✓ "Stabbing pain left temple"<br/>
-                ✓ "Brain fog since morning"<br/>
-                ✓ "Fatigue level 8 out of 10"
+                ✓ {`"Stabbing pain left temple"`}<br/>
+                ✓ {`"Brain fog since morning"`}<br/>
+                ✓ {`"Fatigue level 8 out of 10"`}
               </div>
             </div>
 
@@ -128,7 +128,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Prediction - FIXED LINE */}
+            {/* Prediction */}
             <div className="bg-gradient-to-br from-indigo-900/50 to-purple-900/50 backdrop-blur rounded-3xl p-8 border border-purple-800/50 hover:-translate-y-2 hover:shadow-2xl hover:shadow-purple-500/25 transition-all duration-300">
               <div className="text-5xl mb-4">🔮</div>
               <h3 className="text-2xl font-bold mb-3">Flare-up Predictions</h3>
