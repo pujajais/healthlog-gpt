@@ -1,5 +1,5 @@
 "use client";
-
+import VoiceRecorder from './components/VoiceRecorder';
 export default function Home() {
   return (
     <div className="bg-gradient-to-br from-indigo-950 via-purple-950 to-pink-950 min-h-screen overflow-x-hidden text-white">
@@ -14,6 +14,12 @@ export default function Home() {
       <div className="relative z-10">
         {/* Hero Section - CLEAR MESSAGING */}
         <div className="container mx-auto px-6 pt-20 pb-16">
+          {/* Voice Recorder Section */}
+          <section className="py-16 px-4 bg-gradient-to-br from-purple-900 via-purple-800 to-pink-800">
+            <div className="container mx-auto">
+              <VoiceRecorder />
+            </div>
+          </section>
           
           {/* Problem Statement Badge */}
           <div className="flex justify-center mb-8">
